@@ -31,17 +31,17 @@
 </div>
 </form>
 
-<form method="post" action="../C/#.action.php" name="form" id="form1">
+<form method="post" action="../C/form2.action.php" name="form2" id="form2">
   <div class="title">Convertir un nombre en pourcentage</div>
 
-  <div class="input-container ic1">
-    <input name="name" class="input" type="text" placeholder=" " size=3/>
-    <label for="name" class="placeholder">sur un total de</label>
+  <div class="thirdInput">
+    <input name="third" class="input" type="text" placeholder=" " size=3/>
+    <label for="third" class="placeholder">sur un total de</label>
   </div>
 
-  <div class="input-container ic2">
-    <input name="firstname" class="input" type="text" placeholder=" " size=3/>
-    <label for="firstname" class="placeholder">= quel pourcentage ?</label>
+  <div class="fourthInput">
+    <input name="fourth" class="input" type="text" placeholder=" " size=3/>
+    <label for="fourth" class="placeholder">= quel pourcentage ?</label>
   </div>
 
   <button type="text" class="submit">Calculer</button>

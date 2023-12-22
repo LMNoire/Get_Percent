@@ -14,17 +14,17 @@
 
 <body>
     
-<form method="post" action="../C/#.action.php" name="form" id="form1">
+<form method="post" action="../C/form1.action.php" name="form1" id="form1">
   <div class="title">Convertir un pourcentage en nombre</div>
 
-  <div class="input-container ic1">
-    <input name="name" class="input" type="text" placeholder=" " size=3/>
-    <label for="name" class="placeholder">% d'un total de</label>
+  <div class="firstInput">
+    <input name="first" class="input" type="text" placeholder=" " size=3/>
+    <label for="first" class="placeholder">% d'un total de</label>
   </div>
 
-  <div class="input-container ic2">
-    <input name="firstname" class="input" type="text" placeholder=" " size=3/>
-    <label for="firstname" class="placeholder">= quel nombre ?</label>
+  <div class="secondInput">
+    <input name="second" class="input" type="text" placeholder=" " size=3/>
+    <label for="second" class="placeholder">= quel nombre ?</label>
   </div>
 
   <button type="text" class="submit">Calculer</button>

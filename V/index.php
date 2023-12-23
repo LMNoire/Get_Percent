@@ -19,14 +19,12 @@
 <!--HTML body start-->
 <body>
 
-<!--Start div container-->
-<div class="container">
-
 <!--Title div-->
 <div class="h1">
 	<h1>CALCULER UN POURCENTAGE</h1>
 </div>
 
+<div class="topcontainer">
 <!--Convert a percentage into a number-->
 <div class="container1">
 <form method="post" action="../C/form1.action.php" name="form1" id="form1">
@@ -44,7 +42,7 @@
 
 	<button type="text" class="submit">Calculer</button>
 </form>
-</div><br>
+</div>
 
 <!--Convert a number into a percentage-->
 <div class="container2">
@@ -64,8 +62,9 @@
   	<button type="text" class="submit">Calculer</button>
 </form>
 </div>
-<br>
+</div>
 
+<div class="botcontainer">
 <!--Increase percentage-->
 <div class="container3">
 <form method="post" action="../C/form3.action.php" name="form3" id="form3">
@@ -84,7 +83,6 @@
 	<button type="text" class="submit">Calculer</button>
 </form>
 </div>
-<br>
 
 <!--Decrease percentage-->
 <div class="container4">
@@ -104,24 +102,23 @@
 	<button type="text" class="submit">Calculer</button>
 </form>
 </div>
-<br>
 
 <!--Variations-->
 <div class="container5">
 <form method="post" action="../C/form5.action.php" name="form5" id="form5">
-  <div class="title">Variation</div>
+  	<div class="title">Variation</div>
 
-  <div class="nineInput">
- 	<label for="nine" class="placeholder">Le taux d'évolution entre </label>
-    <input name="nine" class="input" type="text" placeholder=" " size=3/> et
-  </div>
+	<div class="nineInput">
+		<label for="nine" class="placeholder">Le taux d'évolution entre </label>
+		<input name="nine" class="input" type="text" placeholder=" " size=3/> et
+	</div>
 
-  <div class="tenInput">
-    <input name="ten" class="input" type="text" placeholder=" " size=3/>
-    <label for="ten" class="placeholder"> = quel pourcentage ?</label>
-  </div>
+	<div class="tenInput">
+		<input name="ten" class="input" type="text" placeholder=" " size=3/>
+		<label for="ten" class="placeholder"> = quel pourcentage ?</label>
+	</div>
 
-  <button type="text" class="submit">Calculer</button>
+	<button type="text" class="submit">Calculer</button>
 </form>
 </div>
 </div>

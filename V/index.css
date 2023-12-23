@@ -4,48 +4,78 @@ body {
     background: rgb(238,174,202);
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
     display: inline-flex;
-    margin: 0;
+    margin: 0 ;
     justify-content: center;
     align-items: center;
 }
-/*Global div*/
-.container {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    font-family: 'Roboto';
-    }
-/*Title*/
+/* Title */
 .h1 { 
-    grid-area: 1 / 1 / 2 / 8; 
-    justify-self: center;  
-    align-self: center;    
+    display: block;
+    font-family: 'Roboto';
+    position: fixed;        
+    top: 0;                  
+    left: 0;                 
+    right: 0;                
+    width: 100%;             
     text-align: center;  
+    z-index: 1000;         
+}
+/* Top Container */
+.topcontainer {
+    display: flex;           
+    flex-direction: row;   
+    justify-content: space-between; 
+    font-family: 'Roboto';
+    position: absolute;     
+    top: 20%;               
+    left: 50%;              
+    transform: translateX(-50%); 
+    align-items: center;
+}
+/* Bottom Container */
+.botcontainer {
+    display: flex;          
+    flex-direction: row;    
+    justify-content: space-between; 
+    font-family: 'Roboto';
+    position: absolute;      
+    top: 45%;             
+    left: 50%;             
+    transform: translateX(-50%); 
+    align-items: center;
 }
 /*1-Convert a percentage into a number*/
 .container1 { 
-    grid-area: 3 / 3 / 4 / 4; 
-
+    font-family: 'Roboto';
+    position: relative;
+    padding: 10px; 
+    margin: 20px;
 }
 /*2-Convert a number into a percentage*/
 .container2 { 
-    grid-area: 3 / 5 / 4 / 6; 
-
+    font-family: 'Roboto';
+    position: relative;
+    padding: 10px; 
+    margin: 20px;
 }
 /*3-Increase percentage*/
 .container3 { 
-    grid-area: 5 / 2 / 6 / 3; 
-
+    font-family: 'Roboto';
+    position: relative;
+    padding: 10px; 
+    margin: 20px;
 }
 /*4-Decrease percentage*/
 .container4 { 
-    grid-area: 5 / 4 / 6 / 5;
-
+    font-family: 'Roboto';
+    position: relative;
+    padding: 10px; 
+    margin: 20px;
 }
 /*5-Variations*/
 .container5 { 
-    grid-area: 5 / 6 / 6 / 7; 
-
+    font-family: 'Roboto';
+    position: relative;
+    padding: 10px; 
+    margin: 20px;
 }

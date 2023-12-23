@@ -20,6 +20,12 @@ body {
     text-align: center;  
     z-index: 1000;         
 }
+.horizontal-line {
+    width: 50%;             /* Width of 50% of the parent container */
+    height: 1px;            /* Height of 1px to create a thin line */
+    background-color: #000; /* Color of the line, you can change this as per your design */
+    margin: 10px auto;      /* Center the line horizontally with some margin */
+}
 /* Top Container */
 .topcontainer {
     display: flex;           

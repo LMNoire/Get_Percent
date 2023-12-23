@@ -22,6 +22,7 @@
 <!--Title div-->
 <div class="h1">
 	<h1>CALCULER UN POURCENTAGE</h1>
+	<div class="horizontal-line"></div>
 </div>
 
 <div class="topcontainer">

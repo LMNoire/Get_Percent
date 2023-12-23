@@ -1,4 +1,51 @@
+/*Body*/
 body {
+    /*Background*/
     background: rgb(238,174,202);
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    display: inline-flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+/*Global div*/
+.container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    font-family: 'Roboto';
+    }
+/*Title*/
+.h1 { 
+    grid-area: 1 / 1 / 2 / 8; 
+    justify-self: center;  
+    align-self: center;    
+    text-align: center;  
+}
+/*1-Convert a percentage into a number*/
+.container1 { 
+    grid-area: 3 / 3 / 4 / 4; 
+
+}
+/*2-Convert a number into a percentage*/
+.container2 { 
+    grid-area: 3 / 5 / 4 / 6; 
+
+}
+/*3-Increase percentage*/
+.container3 { 
+    grid-area: 5 / 2 / 6 / 3; 
+
+}
+/*4-Decrease percentage*/
+.container4 { 
+    grid-area: 5 / 4 / 6 / 5;
+
+}
+/*5-Variations*/
+.container5 { 
+    grid-area: 5 / 6 / 6 / 7; 
+
 }

@@ -14,7 +14,7 @@ $result2 = $_SESSION['result2'];
 <head>
     <meta charset="utf-8"/>
     <!--Title-->
-    <title>Résultat</title>
+    <title>Résultats</title>
     <!--CSS stylesheet link-->
     <link href="results.css" rel="Stylesheet"/>
     <!--Fonts-->

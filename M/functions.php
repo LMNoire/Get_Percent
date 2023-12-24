@@ -13,6 +13,10 @@ function convertNumberToPercent (float $num2, float $int2) : float {
 }
 
 /*Function adding a percentage*/
+function addPercent (float $percent3, float $var3) : float {
+    $res3 = $var3 + ($percent3 / 100 * $var3) ;
+    return $res3 ;
+}
 
 /*Function substracte a percentage*/
 

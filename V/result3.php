@@ -1,11 +1,11 @@
 <?php
 
-/*Start session and retrieve $_SESSION data from form1.action.php*/
+/*Start session and retrieve $_SESSION data from form2.action.php*/
 session_start();
 
-$percent1 = $_SESSION['percent1'];
-$num1 = $_SESSION['num1'];
-$result1 = $_SESSION['result1'];
+$var3 = $_SESSION['var3'];
+$percent3 = $_SESSION['percent3'];
+$result3 = $_SESSION['result3'];
 ?>
 
 <!DOCTYPE html>
@@ -33,9 +33,9 @@ $result1 = $_SESSION['result1'];
 </div>
 
 <div class="topcontainer">
-    <!-- Display the results -->
-    <?php echo $percent1."% d'un total de ".$num1." est égal à :&nbsp";?> 
-    <p class="results"><?php echo $result1; ?></p>
+    <!--Display the results-->
+    <?php echo "La valeur ".$var3." plus ".$percent3."% est égale à&nbsp"?>
+    <p class="results"><?php echo $result3 ?></p>
 </div>
 
 <div class="botcontainer">

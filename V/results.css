@@ -51,38 +51,3 @@ body {
     transform: translateX(-50%); 
     align-items: center;
 }
-/*1-Convert a percentage into a number*/
-.container1 { 
-    font-family: 'Roboto';
-    position: relative;
-    padding: 10px; 
-    margin: 20px;
-}
-/*2-Convert a number into a percentage*/
-.container2 { 
-    font-family: 'Roboto';
-    position: relative;
-    padding: 10px; 
-    margin: 20px;
-}
-/*3-Increase percentage*/
-.container3 { 
-    font-family: 'Roboto';
-    position: relative;
-    padding: 10px; 
-    margin: 20px;
-}
-/*4-Decrease percentage*/
-.container4 { 
-    font-family: 'Roboto';
-    position: relative;
-    padding: 10px; 
-    margin: 20px;
-}
-/*5-Variations*/
-.container5 { 
-    font-family: 'Roboto';
-    position: relative;
-    padding: 10px; 
-    margin: 20px;
-}

@@ -1,11 +1,11 @@
 <?php
 
-/*Start session and retrieve $_SESSION data from form3.action.php*/
+/*Start session and retrieve $_SESSION data from form4.action.php*/
 session_start();
 
-$var3 = $_SESSION['var3'];
-$percent3 = $_SESSION['percent3'];
-$result3 = $_SESSION['result3'];
+$var4 = $_SESSION['var4'];
+$percent4 = $_SESSION['percent4'];
+$result4 = $_SESSION['result4'];
 ?>
 
 <!DOCTYPE html>
@@ -34,8 +34,8 @@ $result3 = $_SESSION['result3'];
 
 <div class="topcontainer">
     <!--Display the results-->
-    <?php echo "La valeur ".$var3." plus ".$percent3."% est égale à&nbsp"?>
-    <p class="results"><?php echo $result3 ?></p>
+    <?php echo "La valeur ".$var4." moins ".$percent4."% est égale à&nbsp"?>
+    <p class="results"><?php echo $result4 ?></p>
 </div>
 
 <div class="botcontainer">

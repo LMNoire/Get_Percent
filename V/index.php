@@ -110,7 +110,7 @@
   	<div class="title">Variation</div>
 
 	<div class="nineInput">
-		<label for="nine" class="placeholder">Le taux d'évolution entre </label>
+		<label for="nine" class="placeholder">La variation entre </label>
 		<input name="nine" class="input" type="text" placeholder=" " size=3/> et
 	</div>
 

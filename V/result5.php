@@ -1,11 +1,11 @@
 <?php
 
-/*Start session and retrieve $_SESSION data from form1.action.php*/
+/*Start session and retrieve $_SESSION data from form5.action.php*/
 session_start();
 
-$percent1 = $_SESSION['percent1'];
-$num1 = $_SESSION['num1'];
-$result1 = $_SESSION['result1'];
+$var5 = $_SESSION['var5'];
+$percent5 = $_SESSION['percent5'];
+$result5 = $_SESSION['result5'];
 ?>
 
 <!DOCTYPE html>
@@ -33,9 +33,19 @@ $result1 = $_SESSION['result1'];
 </div>
 
 <div class="topcontainer">
-    <!-- Display the results -->
-    <?php echo $percent1."% d'un total de ".$num1." est égal à&nbsp";?> 
-    <p class="results"><?php echo $result1; ?></p>
+    <!--Display the results-->
+    <?php echo "La variation entre ".$var5." et ".$percent5." est égale à&nbsp"?>
+    <p class="results"><?php echo $result5."%" ?></p>
+    <?php 
+        if ($result5 > 0) {
+        $aug = $percent5 - $var5 ;
+        echo "&nbsp - (Soit une variation de +".$aug.")";
+    }
+        if ($result5 < 0) {
+        $dim = $percent5 - $var5 ;
+        echo "&nbsp - (Soit une variation de ".$dim.")";
+        }
+    ?>
 </div>
 
 <div class="botcontainer">

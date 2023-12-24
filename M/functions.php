@@ -19,11 +19,15 @@ function addPercent (float $percent3, float $var3) : float {
 }
 
 /*Function substracte a percentage*/
-function subPercent (float $percent4, $var4) : float {
+function subPercent (float $percent4, float $var4) : float {
     $res4 = $var4 - ($percent4 / 100 * $var4) ;
     return $res4 ;
 }
 /*Function percentage variation*/
+function variationPercent (float $percent5, float $var5) : float {
+    $res5 = (($percent5 - $var5) / $var5) * 100 ;
+    return $res5 ;
+}
 
 ?>
 

@@ -34,8 +34,16 @@ $result4 = $_SESSION['result4'];
 
 <div class="topcontainer">
     <!--Display the results-->
-    <?php echo "La valeur ".$var4." moins ".$percent4."% est égale à&nbsp"?>
-    <p class="results"><?php echo $result4 ?></p>
+    <?php 
+    echo "La valeur ".$var4." moins ".$percent4."% est égale à&nbsp"
+    ?>
+    <p class="results"><?php 
+    echo $result4 
+    ?></p>
+    <?php
+    $diff = ($result4 - $var4)*-1 ;
+    echo "&nbsp - (Soit une diminution de ".$diff.")";
+    ?>
 </div>
 
 <div class="botcontainer">

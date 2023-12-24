@@ -34,9 +34,8 @@ $result2 = $_SESSION['result2'];
 
 <div class="topcontainer">
     <!--Display the results-->
-    <?php echo "La valeur ".$num2." est égal à&nbsp"?>
+    <?php echo "La valeur de ".$num2." sur un total de ".$int2." est égal à&nbsp"?>
     <p class="results"><?php echo $result2."%&nbsp" ?></p>
-    <?php echo "sur un total de ".$int2; ?>
 </div>
 
 <div class="botcontainer">

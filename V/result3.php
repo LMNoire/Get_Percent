@@ -34,8 +34,14 @@ $result3 = $_SESSION['result3'];
 
 <div class="topcontainer">
     <!--Display the results-->
-    <?php echo "La valeur ".$var3." plus ".$percent3."% est égale à&nbsp"?>
-    <p class="results"><?php echo $result3 ?></p>
+    <?php 
+    echo "La valeur ".$var3." plus ".$percent3."% est égale à&nbsp"?>
+    <p class="results"><?php echo $result3; 
+    ?></p>
+    <?php 
+    $diff = $result3 - $var3 ;
+    echo "&nbsp - (Soit une augmentation de ".$diff.")";
+    ?>
 </div>
 
 <div class="botcontainer">

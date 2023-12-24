@@ -29,14 +29,13 @@ $result1 = $_SESSION['result1'];
 </div>
 
 <div class="topcontainer">
-<!--Display the results-->
-<?php echo $percent1."% d'un total de ".$num1." est égal à : ".$result1; ?>
-<br>
+    <!--Display the results-->
+    <?php echo $percent1."% d'un total de ".$num1." est égal à : ".$result1; ?>
 </div>
 
 <div class="botcontainer">
-<!--Link to index-->
-<a href="index.php">Retour à l'accueil</a>
+    <!--Link to index-->
+    <a href="index.php">Retour à l'accueil</a>
 </div>
 
 </body>

@@ -13,6 +13,7 @@ $result1 = $_SESSION['result1'];
 <!--HTML header start-->
 <head>
     <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Title-->
     <title>Résultats</title>
     <!--CSS stylesheet link-->

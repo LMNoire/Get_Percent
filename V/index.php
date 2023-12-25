@@ -26,6 +26,7 @@
 	<div class="horizontal-line"></div>
 </div>
 
+<!--Wrap the two first div-->
 <div class="topcontainer">
 <!--Convert a percentage into a number-->
 <div class="container1">
@@ -66,6 +67,7 @@
 </div>
 </div>
 
+<!--Wrap the three other div-->
 <div class="botcontainer">
 <!--Increase percentage-->
 <div class="container3">

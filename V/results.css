@@ -13,13 +13,28 @@ body {
 .h1 { 
     display: block;
     font-family: 'Roboto';
+    font-size: 20px;
     position: fixed;        
     top: 0;                  
     left: 0;                 
     right: 0;                
     width: 100%;             
     text-align: center;  
-    z-index: 1000;         
+    z-index: 1;         
+}
+@media screen and (max-width: 600px) {
+.h1 {
+    display: block;
+    font-size: 12px;
+    font-family: 'Roboto';
+    position: relative;
+    align-items: center;
+    align-content: center;
+    width: fit-content;
+    text-align: center;
+    z-index: 0; 
+    transform: translateX(25%);
+    }
 }
 /*Divider*/
 .horizontal-line {

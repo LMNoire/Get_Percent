@@ -76,7 +76,7 @@ body {
     .botcontainer {
     display: inline-block;
     justify-content: space-between;
-    top: 63%;
+    top: 60%;
     }
 }
 /*1-Convert a percentage into a number*/
@@ -85,6 +85,12 @@ body {
     position: relative;
     padding: 10px; 
     margin: 20px;
+    border: #000 solid 1px;
+    border-radius: 10px;
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 100px;
+    max-height: 100px;
 }
 /*2-Convert a number into a percentage*/
 .container2 { 
@@ -92,6 +98,12 @@ body {
     position: relative;
     padding: 10px; 
     margin: 20px;
+    border: #000 solid 1px;
+    border-radius: 10px;
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 100px;
+    max-height: 100px;
 }
 /*3-Increase percentage*/
 .container3 { 
@@ -99,6 +111,12 @@ body {
     position: relative;
     padding: 10px; 
     margin: 20px;
+    border: #000 solid 1px;
+    border-radius: 10px;
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 100px;
+    max-height: 100px;
 }
 /*4-Decrease percentage*/
 .container4 { 
@@ -106,6 +124,12 @@ body {
     position: relative;
     padding: 10px; 
     margin: 20px;
+    border: #000 solid 1px;
+    border-radius: 10px;
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 100px;
+    max-height: 100px;
 }
 /*5-Variations*/
 .container5 { 
@@ -113,5 +137,31 @@ body {
     position: relative;
     padding: 10px; 
     margin: 20px;
+    border: #000 solid 1px;
+    border-radius: 10px;
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 100px;
+    max-height: 100px;
 }
-
+/*Containers titles*/
+.title {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    align-self: baseline;
+    text-decoration: underline;
+}
+/* Submit Button Styles */
+.submit {
+    position: absolute; /* Position relative to the container */
+    bottom: 10px;      /* Distance from the bottom */
+    right: 10px;       /* Distance from the right */
+    background: none;
+    border: none;
+    text-align: center;
+    color: whitesmoke;
+    background-color: #fa709a;
+    padding: 5px 10px;
+    border-radius: 2rem;
+    cursor: pointer;
+}

@@ -23,7 +23,28 @@
 <!--Title div-->
 <div class="h1">
 	<h1>CALCULER UN POURCENTAGE</h1>
+	<!--Horizontal line-->
 	<div class="horizontal-line"></div>
+    <!-- Dark/Day mode button with ID -->
+    <button onclick="toggleDarkMode()" class="darkMode" id="darkModeBtn">Dark mode</button>
+</div>
+
+<script>
+    function toggleDarkMode() {
+        var element = document.body;
+        var button = document.getElementById('darkModeBtn');
+
+        // Toggle dark mode class on body
+        element.classList.toggle("dark-mode");
+
+        // Check current class list of body to toggle button text
+        if (element.classList.contains("dark-mode")) {
+            button.textContent = "Day mode";
+        } else {
+            button.textContent = "Dark mode";
+        }
+    }
+</script>
 </div>
 
 <!--Wrap the two first div-->

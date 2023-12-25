@@ -70,3 +70,25 @@ body {
 .results {
     font-weight: bold;
 }
+/*Dark mode*/
+.dark-mode {
+    /*Background*/
+    background: rgb(9,9,121);
+    background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(0,0,0,1) 28%, rgba(2,2,21,1) 80%, rgba(9,9,121,1) 100%);
+    /*Font color*/
+    color: #eceaea;
+}
+/*Dark/Day mode button*/
+.darkMode {
+    font-family: 'Roboto';
+    border-radius: 10px;
+    color: #eceaea;
+    background-color: #010139;
+}
+.dark-mode .horizontal-line {
+    background-color: #eceaea;
+}
+.dark-mode .darkMode {
+    color: black;
+    background-color: #f6ff8a;
+}

@@ -184,7 +184,7 @@ body {
 /*Dark/Day mode button*/
 .darkMode {
     font-family: 'Roboto';
-    border-radius: 5px;
+    border-radius: 10px;
     color: #eceaea;
     background-color: #010139;
 }

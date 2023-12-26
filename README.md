@@ -9,4 +9,6 @@ HTML/CSS, PHP, Javascript
 # Back
 - La page index renvoi, selon le formulaire rempli, vers un des cinq contrôleurs qui appellent chacun leur fonction dans le modèle. Le tout en PHP.
 # A venir
-Ajout d'une version anglaise
+- Ajout d'une version anglaise
+- Mettre en ligne
+- Tester responsive

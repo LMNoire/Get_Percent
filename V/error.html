@@ -21,7 +21,42 @@
 <div class="h1">
 	<h1>CALCULER UN POURCENTAGE</h1>
 	<div class="horizontal-line"></div>
+    <!--Dark/Day mode button-->
+    <button onclick="toggleDarkMode()" class="darkMode" id="darkModeBtn">Dark mode</button>
 </div>
+
+<script>
+    // Function to toggle dark mode//
+    function toggleDarkMode() {
+        var element = document.body;
+        var button = document.getElementById('darkModeBtn');
+    //Toggle dark mode class on body//
+        element.classList.toggle("dark-mode");
+    //Toggle button text based on dark mode status//
+        if (element.classList.contains("dark-mode")) {
+            button.textContent = "Day mode";
+    		//Save dark mode preference to localStorage//
+        	localStorage.setItem('darkModeEnabled', 'true');
+    } else {
+            button.textContent = "Dark mode";
+            //Remove dark mode preference from localStorage//
+            localStorage.removeItem('darkModeEnabled');
+        }
+    }
+    //Check if dark mode preference exists in localStorage and apply it//
+        document.addEventListener('DOMContentLoaded', (event) => {
+        const isDarkModeEnabled = localStorage.getItem('darkModeEnabled');
+        const bodyElement = document.body;
+        const darkModeButton = document.getElementById('darkModeBtn');
+        if (isDarkModeEnabled === 'true') {
+            bodyElement.classList.add('dark-mode');
+            darkModeButton.textContent = 'Day mode';
+        } else {
+            bodyElement.classList.remove('dark-mode');
+            darkModeButton.textContent = 'Dark mode';
+        }
+    });
+</script>
 
 <div class="topcontainer">
     <!--Display error message-->

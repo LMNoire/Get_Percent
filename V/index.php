@@ -30,7 +30,7 @@
 </div>
 
 <script>
-    // Function to toggle dark mode//
+    //Function to toggle dark mode//
     function toggleDarkMode() {
         var element = document.body;
         var button = document.getElementById('darkModeBtn');
@@ -61,7 +61,6 @@
         }
     });
 </script>
-</div>
 
 <!--Wrap the two first div-->
 <div class="topcontainer">

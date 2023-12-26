@@ -50,7 +50,7 @@ body {
     justify-content: space-between; 
     font-family: 'Roboto';
     position: absolute;     
-    top: 20%;               
+    top: 25%;               
     left: 50%;              
     transform: translateX(-50%); 
     align-items: center;
@@ -62,10 +62,11 @@ body {
     justify-content: space-between; 
     font-family: 'Roboto';
     position: absolute;      
-    top: 45%;             
+    top: 50%;             
     left: 50%;             
     transform: translateX(-50%); 
     align-items: center;
+    margin-top: 7%;
 }
 .results {
     font-weight: bold;
@@ -91,4 +92,18 @@ body {
 .dark-mode .darkMode {
     color: black;
     background-color: #f6ff8a;
+}
+/*Navbar and languages button*/
+.navbar {
+    display: flex;           
+    justify-content: center;
+    align-items: center;    
+}
+.english {
+    width: 40px;  
+    height: auto; 
+}
+.french {
+    width: 50px;  
+    height: auto; 
 }

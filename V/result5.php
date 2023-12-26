@@ -30,9 +30,14 @@ $result5 = $_SESSION['result5'];
 <!--Title div-->
 <div class="h1">
 	<h1>CALCULER UN POURCENTAGE</h1>
+	<!--Horizontal line-->
 	<div class="horizontal-line"></div>
+<div class="navbar">
+	<a href="#"><img class="english" src="assets/english.png"></a>
     <!--Dark/Day mode button-->
     <button onclick="toggleDarkMode()" class="darkMode" id="darkModeBtn">Dark mode</button>
+	<a href="index.php"><img class="french" src="assets/french.png"></a>
+</div>
 </div>
 
 <script>

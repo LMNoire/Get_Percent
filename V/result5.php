@@ -14,6 +14,9 @@ $result5 = $_SESSION['result5'];
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--SEO-->
+    <meta name="keywords" content="percentage calculation, math, tutorial, calculation guide">
+    <meta name="description" content="Calculate a percentage easily with our tools.">
     <!--Title-->
     <title>Résultats</title>
     <!--CSS stylesheet link-->

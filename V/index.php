@@ -7,6 +7,9 @@
 <head>
     <meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--SEO-->
+	<meta name="keywords" content="percentage calculation, math, tutorial, calculation guide">
+    <meta name="description" content="Calculate a percentage easily with our tools.">
 	<!--Title-->
     <title>Calculer un pourcentage</title>
     <!--CSS stylesheet link-->

@@ -33,10 +33,10 @@ $result1 = $_SESSION['result1'];
 	<!--Horizontal line-->
 	<div class="horizontal-line"></div>
 <div class="navbar">
-	<a href="#"><img class="english" src="assets/english.png"></a>
+	<a href="#"><img class="english" src="assets/english.png" alt="English flag"></a>
     <!--Dark/Day mode button-->
     <button onclick="toggleDarkMode()" class="darkMode" id="darkModeBtn">Dark mode</button>
-	<a href="index.php"><img class="french" src="assets/french.png"></a>
+	<a href="index.php"><img class="french" src="assets/french.png" alt="French flag"></a>
 </div>
 </div>
 

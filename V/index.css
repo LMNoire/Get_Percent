@@ -195,3 +195,17 @@ body {
     color: black;
     background-color: #f6ff8a;
 }
+/*Navbar and languages button*/
+.navbar {
+    display: flex;           
+    justify-content: center;
+    align-items: center;    
+}
+.english {
+    width: 40px;  
+    height: auto; 
+}
+.french {
+    width: 50px;  
+    height: auto; 
+}

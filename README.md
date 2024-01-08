@@ -1,5 +1,5 @@
 # Description
-Page web destinée à calculer facilement des pourcentages ( https://pourcentage.online )
+Page web destinée à calculer facilement des pourcentages (https://pourcentage.online)
 # Langages
 HTML/CSS, PHP, Javascript
 # Front

@@ -9,7 +9,7 @@ HTML/CSS, PHP, Javascript
 # Back
 - La page index renvoi, selon le formulaire rempli, vers un des cinq contrôleurs qui appellent chacun leur fonction dans le modèle. Le tout en PHP.
 # A venir 
-- Tester responsive
+- Tester responsive + Régler affichage background en daymode sur mobile
 - Ajout d'un footer avec CGU
 - Mettre en ligne
 - Ajout d'une version anglaise

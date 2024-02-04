@@ -28,11 +28,13 @@
 	<h1>CALCULER UN POURCENTAGE</h1>
 	<!--Horizontal line-->
 	<div class="horizontal-line"></div>
-<div class="navbar">
-	<a href="#"><img class="english" src="assets/english.png" alt="English flag"></a>
+	<!--Langages-->
+	<div class="header">
+	<!-- <a href="#"><img class="english" src="assets/english.png" alt="English flag"></a>
+	<a href="index.php"><img class="french" src="assets/french.png" alt="French flag"></a> -->
     <!--Dark/Day mode button-->
     <button onclick="toggleDarkMode()" class="darkMode" id="darkModeBtn">Dark mode</button>
-	<a href="index.php"><img class="french" src="assets/french.png" alt="French flag"></a>
+	</div>
 </div>
 </div>
 
@@ -73,7 +75,7 @@
 <div class="topcontainer">
 <!--Convert a percentage into a number-->
 <div class="container1">
-<form method="post" action="../C/form1.action.php" name="form1" id="form1">
+<form method="post" action="C/form1.action.php" name="form1" id="form1">
   	<div class="title">Convertir un pourcentage en nombre</div>
 
 	<div class="firstInput">
@@ -92,7 +94,7 @@
 
 <!--Convert a number into a percentage-->
 <div class="container2">
-<form method="post" action="../C/form2.action.php" name="form2" id="form2">
+<form method="post" action="C/form2.action.php" name="form2" id="form2">
 	<div class="title">Convertir un nombre en pourcentage</div>
 
 	<div class="thirdInput">
@@ -114,7 +116,7 @@
 <div class="botcontainer">
 <!--Increase percentage-->
 <div class="container3">
-<form method="post" action="../C/form3.action.php" name="form3" id="form3">
+<form method="post" action="C/form3.action.php" name="form3" id="form3">
 	<div class="title">Augmentation</div>
 
 	<div class="fifthInput">
@@ -133,7 +135,7 @@
 
 <!--Decrease percentage-->
 <div class="container4">
-<form method="post" action="../C/form4.action.php" name="form4" id="form4">
+<form method="post" action="C/form4.action.php" name="form4" id="form4">
 	<div class="title">Réduction</div>
 
 	<div class="sevenInput">
@@ -152,7 +154,7 @@
 
 <!--Variations-->
 <div class="container5">
-<form method="post" action="../C/form5.action.php" name="form5" id="form5">
+<form method="post" action="C/form5.action.php" name="form5" id="form5">
   	<div class="title">Variation</div>
 
 	<div class="nineInput">

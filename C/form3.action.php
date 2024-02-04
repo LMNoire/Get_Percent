@@ -19,5 +19,5 @@ if (trim($_POST['fifth'])&&trim($_POST['sixth']) == !NULL) {
 }
 /*Elseif head to error page*/
 elseif (trim($_POST['fifth'])||trim($_POST['sixth'])== NULL) {
-    header('Location: ../V/error.html');
+    header('Location: ../error.html');
 }

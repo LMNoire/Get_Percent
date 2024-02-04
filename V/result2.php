@@ -36,10 +36,10 @@ $result2 = $_SESSION['result2'];
 	<!--Horizontal line-->
 	<div class="horizontal-line"></div>
 <div class="navbar">
-	<a href="#"><img class="english" src="assets/english.png" alt="English flag"></a>
+	<!-- <a href="#"><img class="english" src="assets/english.png" alt="English flag"></a> -->
     <!--Dark/Day mode button-->
     <button onclick="toggleDarkMode()" class="darkMode" id="darkModeBtn">Dark mode</button>
-	<a href="index.php"><img class="french" src="assets/french.png" alt="French flag"></a>
+	<!-- <a href="index.php"><img class="french" src="assets/french.png" alt="French flag"></a> -->
 </div>
 </div>
 
@@ -78,13 +78,13 @@ $result2 = $_SESSION['result2'];
 
 <div class="topcontainer">
     <!--Display the results-->
-    <?php echo "La valeur de ".$num2." sur un total de ".$int2." est égal à&nbsp"?>
-    <p class="results"><?php echo $result2."%&nbsp" ?></p>
+    <?php echo "La valeur de ".$num2." sur un total de ".$int2." est égal à " .$result2."%"?>
+
 </div>
 
 <div class="botcontainer">
     <!--Link to index-->
-    <a href="index.php">Retour à l'accueil</a>
+    <a href="http://pourcentage.online">Retour à l'accueil</a>
 </div>
 
 </body>

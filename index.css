@@ -1,0 +1,340 @@
+/*Body*/
+body {
+    /*Background*/
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    display: flex;
+    margin: 0 ;
+    justify-content: center;
+    align-items: center;
+}
+/*Title*/
+h1 {
+    font-family: "Roboto";
+    color: #FFFFFF;
+    font-size: 60px;
+    text-align: center; 
+    margin-top: 0; 
+    width: 100%; 
+    position: absolute; 
+    top: 0;
+    left: 50%; 
+    transform: translateX(-50%); 
+}
+@media screen and (max-width: 479px) {
+    h1 {
+        font-family: "Roboto";
+        color: #FFFFFF;
+        font-size: 35px;
+        text-align: center; 
+        margin-top: 0; 
+        width: 100%; 
+        position: absolute; 
+        top: 0;
+        left: 50%; 
+        transform: translateX(-50%); 
+        }
+    }
+@media screen and (min-width: 480px) and (max-width: 600px) {
+    h1 {
+        font-family: "Roboto";
+        color: #FFFFFF;
+        font-size: 35px;
+        text-align: center; 
+        margin-top: 0; 
+        width: 100%; 
+        position: absolute; 
+        top: 0;
+        left: 50%; 
+        transform: translateX(-50%); 
+        }
+    }
+    @media screen and (min-width: 601px) and (max-width: 899px) {
+        h1 {
+            font-family: "Roboto";
+            color: #FFFFFF;
+            font-size: 35px;
+            text-align: center; 
+            margin-top: 0; 
+            width: 100%; 
+            position: absolute; 
+            top: 0;
+            left: 50%; 
+            transform: translateX(-50%); 
+        }
+    }
+@media screen and (min-width: 900px) and (max-width: 1099px) {
+h1 {
+    font-family: "Roboto";
+    color: #FFFFFF;
+    font-size: 60px;
+    text-align: center; 
+    margin-top: 0; 
+    width: 100%; 
+    position: absolute; 
+    top: 0;
+    left: 55%; 
+    transform: translateX(-50%); 
+}
+}
+
+
+/*Divider*/
+.horizontal-line {
+    width: 50%;           
+    height: 1px;           
+    background-color: #000; 
+    margin: 10px auto;    
+    display: flex;          
+    justify-content: center; 
+    align-items: center;     
+}
+
+/* Top Container Styles */
+.topcontainer {
+    font-family: "Roboto";
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    align-items: center; 
+    position: relative;
+    overflow: hidden;
+}
+@media screen and (max-width: 479px) {
+    .topcontainer {
+        display: flex;            /* Use flexbox */
+        flex-direction: column;  /* Set flex direction to column to stack items vertically */
+        justify-content: space-between; /* Distribute items with space between them */
+        align-items: center;      /* Center items vertically */
+        margin-top: 30%;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 600px) {
+    .topcontainer {
+        display: flex;            /* Use flexbox */
+        flex-direction: column;  /* Set flex direction to column to stack items vertically */
+        justify-content: space-between; /* Distribute items with space between them */
+        align-items: center;      /* Center items vertically */
+        margin-top: 25%;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 749px) {
+    .topcontainer {
+        display: flex;            /* Use flexbox */
+        flex-direction: column;  /* Set flex direction to column to stack items vertically */
+        justify-content: space-between; /* Distribute items with space between them */
+        align-items: center;      /* Center items vertically */
+        margin-top: 20%;
+        }
+}
+@media screen and (min-width: 750px) and (max-width: 899px) {
+    .topcontainer {
+        display: flex;            /* Use flexbox */
+        flex-direction: column;  /* Set flex direction to column to stack items vertically */
+        justify-content: space-between; /* Distribute items with space between them */
+        align-items: center;      /* Center items vertically */
+        margin-top: 15%;
+        }
+}
+@media screen and (min-width: 900px) and (max-width: 1099px) {
+    .topcontainer {
+        font-family: "Roboto";
+        margin-top: 10%;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around; 
+        align-items: center; 
+        position: relative;
+        overflow: hidden;
+        }
+}
+/* Bottom Container Styles */
+.botcontainer {
+    display: flex;         
+    flex-direction: row;     
+    justify-content: center; 
+    font-family: 'Roboto';   
+    position: absolute;      
+    top: 50%;               
+    left: 50%;               
+    transform: translate(-50%, -50%); 
+    align-items: center;     
+    margin-top: 7%;          
+}
+@media screen and (max-width: 479px) {
+    .botcontainer {
+        display: inline-block;
+        justify-content: space-between;
+        top: 100%;
+        }
+}
+@media screen and (min-width: 480px) and (max-width: 600px) {
+    .botcontainer {
+    display: inline-block;
+    justify-content: space-between;
+    top: 100%;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 749px) {
+    .botcontainer {
+        display: inline-block;
+        justify-content: space-between;
+        top: 100%;
+    }
+}
+@media screen and (min-width: 750px) and (max-width: 899px) {
+    .botcontainer {
+        display: inline-block;
+        justify-content: space-between;
+        top: 95%;
+    }
+}
+@media screen and (min-width: 900px) and (max-width: 1099px) {
+    .botcontainer {
+        display: inline-block;
+        justify-content: space-between;
+        top: 60%;
+        }
+}
+/*1-Convert a percentage into a number*/
+.container1 { 
+    font-family: 'Roboto';
+    position: relative;
+    padding: 10px; 
+    margin: 20px;
+    border: #000 solid 1px;
+    border-radius: 10px;
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 100px;
+    max-height: 100px;
+}
+/*2-Convert a number into a percentage*/
+.container2 { 
+    font-family: 'Roboto';
+    position: relative;
+    padding: 10px; 
+    margin: 20px;
+    border: #000 solid 1px;
+    border-radius: 10px;
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 100px;
+    max-height: 100px;
+}
+/*3-Increase percentage*/
+.container3 { 
+    font-family: 'Roboto';
+    position: relative;
+    padding: 10px; 
+    margin: 20px;
+    border: #000 solid 1px;
+    border-radius: 10px;
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 100px;
+    max-height: 100px;
+}
+/*4-Decrease percentage*/
+.container4 { 
+    font-family: 'Roboto';
+    position: relative;
+    padding: 10px; 
+    margin: 20px;
+    border: #000 solid 1px;
+    border-radius: 10px;
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 100px;
+    max-height: 100px;
+}
+/*5-Variations*/
+.container5 { 
+    font-family: 'Roboto';
+    position: relative;
+    padding: 10px; 
+    margin: 20px;
+    border: #000 solid 1px;
+    border-radius: 10px;
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 100px;
+    max-height: 100px;
+}
+/*Containers titles*/
+.title {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    align-self: baseline;
+    text-decoration: underline;
+}
+/*Submit Button*/
+.submit {
+    position: absolute;
+    bottom: 10px;    
+    right: 10px;       
+    background: none;
+    border: none;
+    text-align: center;
+    color: whitesmoke;
+    background-color: #fa709a;
+    padding: 5px 10px;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+/* Horizontal Line Styles */
+.horizontal-line {
+    position: absolute;
+    top: 70px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+}
+.darkMode {
+    position: absolute; 
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/*Dark mode*/
+.dark-mode {
+    /*Background*/
+    background: rgb(9,9,121);
+    background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(0,0,0,1) 28%, rgba(2,2,21,1) 80%, rgba(9,9,121,1) 100%);
+    /*Font color*/
+    color: #eceaea;
+    
+}
+/*Containers borders*/
+.dark-mode .container1,
+.dark-mode .container2,
+.dark-mode .container3,
+.dark-mode .container4,
+.dark-mode .container5 {
+    border: solid white 1px;
+}
+/*Dark/Day mode button*/
+.darkMode {
+    font-family: 'Roboto';
+    border-radius: 10px;
+    color: #eceaea;
+    background-color: #010139;
+}
+.dark-mode .horizontal-line {
+    background-color: #eceaea;
+}
+.dark-mode .darkMode {
+    color: black;
+    background-color: #f6ff8a;
+}
+/*Languages button*/
+.english {
+    width: 40px;  
+    height: auto; 
+}
+.french {
+    width: 50px;  
+    height: auto; 
+}

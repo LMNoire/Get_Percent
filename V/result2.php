@@ -78,7 +78,7 @@ $result2 = $_SESSION['result2'];
 
 <div class="topcontainer">
     <!--Display the results-->
-    <?php echo "La valeur de ".$num2." sur un total de ".$int2." est égal à " .$result2."%"?>
+    <?php echo "La valeur de ".$num2." sur un total de ".$int2." est égal à <strong>&nbsp" .$result2. "</strong>%"?>
 
 </div>
 

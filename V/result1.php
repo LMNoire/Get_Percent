@@ -78,7 +78,7 @@ $result1 = $_SESSION['result1'];
 
 <div class="topcontainer">
     <!-- Display the results -->
-    <?php echo $percent1."% d'un total de ".$num1." est égal à " .$result1 ;
+    <?php echo $percent1."% d'un total de ".$num1." est égal à <strong>&nbsp" .$result1 ; "</strong>";
     ?>
 </div>
 

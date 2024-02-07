@@ -79,14 +79,14 @@ $result5 = $_SESSION['result5'];
 <div class="topcontainer">
 <!-- Display the results -->
 <?php 
-    echo "La variation entre " . $var5 . " et " . $percent5 . " est égale à " . $result5 . "%"; 
+    echo "La variation entre " . $var5 . " et " . $percent5 . " est égale à <strong>&nbsp" . $result5 . "</strong>%"; 
 
     if ($result5 > 0) {
         $aug = $percent5 - $var5;
-        echo " - (Soit une variation de +" . $aug . ")";
+        echo " - (Soit une variation de +<strong>&nbsp" . $aug . "</strong>)";
     } elseif ($result5 < 0) {
         $dim = $percent5 - $var5;
-        echo " - (Soit une variation de " . $dim . ")";
+        echo " - (Soit une variation de <strong>&nbsp" . $dim . "</strong>)";
     }
 ?>
 </div>

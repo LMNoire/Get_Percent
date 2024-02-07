@@ -79,9 +79,9 @@ $result3 = $_SESSION['result3'];
 <div class="topcontainer">
     <!--Display the results-->
     <?php 
-    echo "La valeur ".$var3." plus ".$percent3."% est égale à ". $result3 . "&nbsp" ;
+    echo "La valeur ".$var3." plus ".$percent3."% est égale à <strong>&nbsp". $result3 . "</strong>&nbsp" ;
     $diff = $result3 - $var3 ;
-    echo "- (Soit une augmentation de ".$diff.")";
+    echo "- (Soit une augmentation de <strong>&nbsp".$diff."</strong>)";
     ?>
 </div>
 

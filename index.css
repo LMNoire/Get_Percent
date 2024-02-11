@@ -33,7 +33,7 @@ h1 {
     }
     body {
         background: rgb(238,174,202);
-        background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 80%);
+        background: radial-gradient(circle at center, rgba(148,187,233,1) 0%, rgba(238,174,202,1) 80%);
     }
 }
 @media screen and (min-width: 900px) and (max-width: 1099px) {

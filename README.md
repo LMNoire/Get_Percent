@@ -12,5 +12,4 @@ HTML/CSS, PHP, Javascript
 - Tester responsive + Régler affichage background en daymode sur mobile
 - Ajout d'un footer avec CGU
 - Ajout d'une version anglaise
-- Ajout div publicitaire
 - Nouvelles fonctionnalitées

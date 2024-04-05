@@ -62,6 +62,9 @@ h1 {
     overflow: hidden;
     margin-top: 10%;
 }
+.topcontainer input {
+    color: #000; 
+}
 /* Responsive */
 @media screen and (max-width: 479px) {
     .topcontainer {
@@ -95,7 +98,11 @@ h1 {
     left: 50%;               
     transform: translate(-50%, -50%); 
     align-items: center;     
-    margin-top: 7%;          
+    margin-top: 7%;        
+ 
+}
+.botcontainer input {
+    color: #000; 
 }
 @media screen and (max-width: 479px) {
     .botcontainer {
@@ -147,6 +154,7 @@ h1 {
     max-width: 300px;
     min-height: 100px;
     max-height: 100px;
+    color: #000;
 }
 /* Common styles for containers titles */
 .title {
